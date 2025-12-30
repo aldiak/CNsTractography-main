@@ -44,7 +44,7 @@ Step 4. The resulting fibers are converted to binary map using ```trk2bin.py```.
 This work was used in our CN II, and V binary segmentation map generation. The ground truth will be publicly available soon. The missing folders can be sent  with resonable request to author.
 
 ---
-Concact
+Contact
 
 Alou Diakite
 
