@@ -27,16 +27,12 @@ The input files of the following shells need to be modified accordingly.
 ---
 Step 1. Register the seeding and mask in the MNI space to the individual subject
 ```
-bash 1_MaskGatedFronMNI.sh
+bash MaskGatedFronMNI_oth.sh
 ```
 ---
 Step 2. Fiber tractography for each pair of CNs in seeding and mask
 ```
-bash 2_TrackUsingUKF.sh
-```
-Of course, alternative tractography techniques (deterministic, probabilistic and PTT) could be implemented , provided they yield anatomically plausible streamlines.
-```
-bash 2.1_Track_CSD.sh
+bash Track_CSD.sh
 ```
 ---
 Step 3. The obtained fiber streamline is curated in 3D Slicer to remove false positive fibers
